@@ -66,7 +66,7 @@ fi
 *Рис.4 Выполнение file.sh*
 
 ### my_dir.sh
-
+```
 #!/bin/bash
 
 if [ -d "$1" ]; then
@@ -74,12 +74,12 @@ if [ -d "$1" ]; then
 else
     echo "Директория '$1' не найдена."
 fi
-
+```
 <img width="611" height="48" alt="image" src="https://github.com/user-attachments/assets/d8acc642-8ff3-4a87-888a-90e687ec6efe" />
 *Рис.5 Выполнение my_dir.sh*
 
 ### dir_m.sh
-
+```
 #!/bin/bash
 
 if [ -d "$1" ]; then
@@ -88,6 +88,7 @@ else
     mkdir "$1"
     echo "Директория '$1' создана."
 fi
+```
 
 <img width="860" height="49" alt="image" src="https://github.com/user-attachments/assets/54ab6973-cb19-41da-bc1c-481079926aa9" />
 
@@ -95,20 +96,20 @@ fi
 
 
 ### user_light.sh
-
+```
 #!/bin/bash
 
 my_user=$(whoami)
 if grep -q "^$my_user:" /etc/passwd; then
     echo "Поздравляю! Пользователь '$my_user' найден в системе."
 fi
-
+```
 <img width="507" height="42" alt="image" src="https://github.com/user-attachments/assets/2ba0e902-02d8-4394-a413-b6dc6e92acbf" />
 
 *Рис.7 вполнение user_light.sh*
 
 ### user_f.sh
-
+```
 #!/bin/bash
 
 if grep -q "^$1:" /etc/passwd; then
@@ -116,6 +117,7 @@ if grep -q "^$1:" /etc/passwd; then
 else
     echo "Пользователь '$1' не найден."
 fi
+```
 
 <img width="515" height="51" alt="image" src="https://github.com/user-attachments/assets/f2b6dc24-3417-4b6e-b5b8-6dbf44c54f45" />
 
@@ -128,7 +130,7 @@ fi
 *Рис.9 Выполение user_f2.sh*
 
 ### finder_liight.sh
-
+```
 #!/bin/bash
 
 if [ -f "$1" ]; then
@@ -140,13 +142,14 @@ elif [ -L "$1" ]; then
 else
     echo "'$1' — не существует или другой тип."
 fi
+```
 
 <img width="603" height="77" alt="image" src="https://github.com/user-attachments/assets/8590d82c-d3e6-4aa9-b6bf-40bbd5b36649" />
 
 *Рис.10 Выполнение finder_liight.sh*
 
 ### math.sh
-
+```
 #!/bin/bash
 
 a=$1
@@ -155,6 +158,7 @@ b=$2
 echo "Сумма: $((a + b))"
 echo "Разность: $((a - b))"
 echo "Произведение: $((a * b))"
+```
 
 <img width="462" height="205" alt="image" src="https://github.com/user-attachments/assets/312b0590-8f66-484f-9fb6-cd4e67cd32d2" />
 
