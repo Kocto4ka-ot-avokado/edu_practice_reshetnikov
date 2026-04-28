@@ -273,3 +273,75 @@ Ip phone 2:
 <img width="421" height="62" alt="image" src="https://github.com/user-attachments/assets/ee35c6ee-6b75-4d79-a3a9-48b42e5208db" />
 
 *Рис.16 Настройка dial-peer на RouterB*
+
+
+## Практическая 8.
+
+### Шаг 1. Топология. 
+
+<img width="485" height="393" alt="image" src="https://github.com/user-attachments/assets/4e9495fc-6d5b-42cd-bdf2-a29102ef5eae" />
+
+*Рис.1 Топология.*
+
+### Шаг 2. Настройка routerA.
+
+<img width="429" height="83" alt="image" src="https://github.com/user-attachments/assets/836e4a69-979d-4a9b-b633-9ea87a183c91" />
+
+*Рис. 2 Настройка S0/1/0*
+
+<img width="298" height="87" alt="image" src="https://github.com/user-attachments/assets/5a1ba3f3-0fa1-4965-8ad3-35ed82f69d4c" />
+
+*Рис.3 Настройка EIGRP*
+
+<img width="412" height="202" alt="image" src="https://github.com/user-attachments/assets/4a2d41d8-89ca-437b-91e4-025e3ee8118d" />
+
+*Рис.4 Настройка подинтерфейсов.*
+
+<img width="377" height="66" alt="image" src="https://github.com/user-attachments/assets/80a988d4-b24b-4b55-9da4-2d3f702cc074" />
+
+*Рис.5 Настройка DHCP*
+
+<img width="488" height="267" alt="image" src="https://github.com/user-attachments/assets/cb40c461-b30b-469f-bd97-386d1cb2b661" />
+
+*Рис.6 Настройка CME сервиса и номеров*
+### Шаг 2. Настройка RouterB.
+
+<img width="429" height="63" alt="image" src="https://github.com/user-attachments/assets/fde35842-a0d4-45f6-8a9a-6347be3453eb" />
+
+*Рис.7 Настройка S0/1/0*
+
+<img width="399" height="125" alt="image" src="https://github.com/user-attachments/assets/30fbf836-9d38-43fc-bd29-a764ca4b24e1" />
+
+*Рис.8 Настройка подинтерфейсов.*
+
+<img width="298" height="127" alt="image" src="https://github.com/user-attachments/assets/f536b507-4b1f-464c-b98f-ec37398547f0" />
+
+*Рис.9 Настройка EIGRP*
+
+### Шаг 3. Настройка СMEshitch
+
+<img width="227" height="84" alt="image" src="https://github.com/user-attachments/assets/7f8789c0-a635-4d00-921a-a6bef4a07ece" />
+
+*Рис.10 Настройка имен для VLAN.*
+
+<img width="437" height="94" alt="image" src="https://github.com/user-attachments/assets/8545705d-0c5a-42a4-95c3-61bae45e6f4f" />
+
+*Рис.11 Настройка trunk-порта*
+
+<img width="376" height="75" alt="image" src="https://github.com/user-attachments/assets/06998bf9-45c4-4ebc-a179-6addc1728ad5" />
+
+*Рис.12 Настройка интерфейсов телефонии.*
+
+## Шаг 4. Настройка remoteswitch.
+
+<img width="256" height="67" alt="image" src="https://github.com/user-attachments/assets/9cee541e-f0e8-401b-8895-a0c334fecebe" />
+
+*Рис.13 Настройка Vlan.*
+
+<img width="430" height="43" alt="image" src="https://github.com/user-attachments/assets/7a93921e-1ebc-4565-8e51-8eb892290126" />
+
+*Рис.14 Настройка Trunk порта.*
+
+<img width="365" height="60" alt="image" src="https://github.com/user-attachments/assets/179a07b2-86b1-434c-a91c-ad2a8cf11da2" />
+
+*Рис.15 Настройка f0/2 для телефлона.*
